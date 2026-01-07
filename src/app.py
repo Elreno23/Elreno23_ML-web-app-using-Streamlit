@@ -1,7 +1,3 @@
-from utils import db_connect
-engine = db_connect()
-
-# your code here
 from pickle import load
 import streamlit as st
 
