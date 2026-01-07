@@ -1,7 +1,7 @@
 from pickle import load
 import streamlit as st
 
-model = load(open("models/random-forest-diabetes.pkl","rb"))
+model = load(open("data/models/random-forest-diabetes.pkl","rb"))
 class_dict = {"0":"No sufre de diabetes",
                 "1":"Sufre de diabetes"}
 
